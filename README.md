@@ -1,6 +1,8 @@
-# React Native Cls by [WAAVI](https://waavi.com/en)
+# React Native Cls [![npm version](https://badge.fury.io/js/react-native-cls.svg)](https://badge.fury.io/js/react-native-cls) [![npm downloads](https://img.shields.io/npm/dt/react-native-cls.svg)](https://npm-stat.com/charts.html?package=react-native-cls&from=2018-04-11)
 
-React Native library to have classes like css.
+[![NPM](https://nodei.co/npm/react-native-cls.png?downloads=true)](https://nodei.co/npm/react-native-cls/)
+
+React Native library to have classes like css. By [WAAVI](https://waavi.com/en)
 
 ## Installation
 
