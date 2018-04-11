@@ -108,3 +108,6 @@ export class StyledText extends Component {
 ```
 
 More examples in examples folder.
+
+## License
+<a href=/license.txt target="_blank">MIT</a> license.
