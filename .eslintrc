@@ -1,0 +1,15 @@
+{
+    "extends": "rallycoding",
+    "parser": "babel-eslint",
+    "plugins": ["react-native"],
+    "parserOptions": {
+        "no-loop-func": [1]
+    },
+    "settings": {
+        "import/resolver": "reactnative"
+    },
+    "rules": {
+        "semi": ["error", "never"],
+        "max-len": "off"
+    }
+}

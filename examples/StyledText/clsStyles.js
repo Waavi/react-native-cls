@@ -1,17 +1,4 @@
-# React Native Cls by [WAAVI](https://waavi.com/en)
-
-React Native library to have classes like css.
-
-## Installation
-
-`npm install react-native-cls` or `yarn add react-native-cls`
-
-## How to use
-
-### clsStyles.js
-
-```js
-import ClsStyles, { marginClsStyles, paddingClsStyles } from 'react-native-cls';
+import ClsStyles, { marginClsStyles, paddingClsStyles } from 'react-native-cls'
 
 const sizeStyles = {
     size10: 10,
@@ -26,7 +13,7 @@ const sizeStyles = {
     size36: 36,
     size40: 40,
     size44: 44
-};
+}
 
 const colorStyles = {
     red: 'red',
@@ -35,7 +22,7 @@ const colorStyles = {
     grey: 'grey',
     black: 'black',
     yellow: 'yellow'
-};
+}
 
 const clsStyles = ClsStyles.create({
     styles: {
@@ -71,40 +58,8 @@ const clsStyles = ClsStyles.create({
 
         notFontPadding: { includeFontPadding: false }
     }
-});
+})
 
-const clsStylesWithSpacings = ClsStyles.merge([marginClsStyles, paddingClsStyles, clsStyles]);
+const clsStylesWithSpacings = ClsStyles.merge([marginClsStyles, paddingClsStyles, clsStyles])
 
-export default clsStylesWithSpacings;
-```
-
-### StyledText.js
-
-```js
-import React, { Component } from 'react';
-import { string, any } from 'prop-types';
-import { Text } from 'react-native';
-import textClsStyles from './clsStyles';
-
-export class StyledText extends Component {
-    static propTypes = {
-        cls: string,
-        style: any
-    };
-
-    getStyles = () => textClsStyles.obtainStyles(this.props.cls);
-
-    render() {
-        const { style, ...restProps } = this.props;
-        return <Text style={[this.getStyles(), style]} {...restProps} />;
-    }
-}
-```
-
-### Example
-
-```js
-<StyledText cls="title center red" />
-```
-
-More examples in examples folder.
+export default clsStylesWithSpacings
