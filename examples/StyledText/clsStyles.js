@@ -1,4 +1,5 @@
-import ClsStyles, { marginClsStyles, paddingClsStyles } from 'react-native-cls'
+import ClsStyles from 'react-native-cls'
+import { marginClsStyles, paddingClsStyles } from '../spacingClsStyles'
 
 const sizeStyles = {
     size10: 10,

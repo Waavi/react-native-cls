@@ -11,7 +11,8 @@ React Native library to have classes like css.
 ### clsStyles.js
 
 ```js
-import ClsStyles, { marginClsStyles, paddingClsStyles } from 'react-native-cls';
+import ClsStyles from 'react-native-cls';
+import { marginClsStyles, paddingClsStyles } from '../spacingClsStyles';
 
 const sizeStyles = {
     size10: 10,
@@ -104,10 +105,11 @@ export class StyledText extends Component {
 ### Example
 
 ```js
-<StyledText cls="title center red" />
+<StyledText cls="title center red mt40 mb20" />
 ```
 
 More examples in examples folder.
 
-## License
+## License
+
 <a href=/license.txt target="_blank">MIT</a> license.

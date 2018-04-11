@@ -1,4 +1,5 @@
-import ClsStyles, { marginClsStyles } from 'react-native-cls'
+import ClsStyles from 'react-native-cls'
+import { marginClsStyles } from '../spacingClsStyles'
 import { Fonts, Colors, Metrics } from 'path/theme' // General metric like font sizes or families, colors ...
 
 const clsStyles = ClsStyles.create({
