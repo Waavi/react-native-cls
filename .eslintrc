@@ -1,6 +1,5 @@
 {
     "extends": "rallycoding",
-    "parser": "babel-eslint",
     "plugins": ["react-native"],
     "parserOptions": {
         "no-loop-func": [1]
@@ -10,6 +9,7 @@
     },
     "rules": {
         "semi": ["error", "never"],
-        "max-len": "off"
+        "max-len": "off",
+        "no-throw-literal": "off"
     }
 }
