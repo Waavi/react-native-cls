@@ -1,42 +1,40 @@
 {
-  "name": "react-native-cls",
-  "version": "0.1.1",
-  "description": "React Native library to have classes like css.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Waavi/react-native-cls.git"
-  },
-  "keywords": [
-    "react-native",
-    "class",
-    "ui",
-    "style",
-    "styling",
-    "css"
-  ],
-  "author": "Waavi Studio",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Waavi/react-native-cls/issues"
-  },
-  "homepage": "https://github.com/Waavi/react-native-cls#readme",
-  "peerDependencies": {
-    "react": "^16.0.0-alpha.12",
-    "react-native": "^0.44.0"
-  },
-  "devDependencies": {
-    "eslint-config-rallycoding": "github:haakandev/ESLint-Rallycoding",
-    "eslint-import-resolver-reactnative": "^1.0.2",
-    "eslint-plugin-react-native": "^3.2.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-native": "^0.55.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.5"
-  }
+    "name": "react-native-cls",
+    "version": "1.0.0",
+    "description": "React Native library to have classes like css.",
+    "main": "src/index.js",
+    "scripts": {
+        "clear": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build/ModuleCache/* && rm -rf android/app/build && rm -rf node_modules/ && yarn cache clean",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Waavi/react-native-cls.git"
+    },
+    "keywords": [
+        "react-native",
+        "class",
+        "ui",
+        "style",
+        "styling",
+        "css"
+    ],
+    "author": "Waavi Studio",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Waavi/react-native-cls/issues"
+    },
+    "homepage": "https://github.com/Waavi/react-native-cls#readme",
+    "peerDependencies": {
+        "react": "^16.0.0",
+        "react-native": "^0.44.0"
+    },
+    "devDependencies": {
+        "eslint-config-rallycoding": "github:haakandev/ESLint-Rallycoding",
+        "eslint-import-resolver-reactnative": "^1.0.2",
+        "eslint-plugin-react-native": "^3.2.1",
+        "react": "^16.6.3",
+        "react-native": "^0.58.5"
+    },
+    "dependencies": {}
 }

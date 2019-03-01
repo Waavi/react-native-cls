@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.cpp \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Users/adrian/Documents/repositories/react-native-cls/example/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h
